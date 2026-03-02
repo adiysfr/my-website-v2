@@ -9,8 +9,8 @@
 ## Tech Stack & Dependencies
 
 ```bash
-npx create-next-app@latest portfolio --typescript --tailwind --app --src-dir
-cd portfolio
+npx create-next-app@latest my-website --typescript --tailwind --app --src-dir
+cd my-website
 npm install framer-motion lucide-react
 npm install -D @tailwindcss/typography
 ```
@@ -190,7 +190,7 @@ Layout:
 
 Content:
 - Greeting: "Hi, I'm" (text-muted, text-lg)
-- Name: "[Your Name]" (text-7xl, font-bold, tracking-tight)
+- Name: "Adi YR" (text-7xl, font-bold, tracking-tight)
 - Tagline: "I build things for the web." (text-xl, text-secondary)
 - CTA: "See my work ↓" button (scroll ke Projects)
 
@@ -548,10 +548,10 @@ Optional: thin line di top page yang nunjukin scroll progress. Accent color, hei
 ```tsx
 // app/layout.tsx metadata
 export const metadata = {
-  title: '[Your Name] — Developer Portfolio',
+  title: 'Adi YR — Developer Portfolio',
   description: 'Full-stack developer specializing in ...',
   openGraph: {
-    title: '[Your Name] — Developer Portfolio',
+    title: 'Adi YR — Developer Portfolio',
     description: '...',
     images: ['/og-image.png'],  // 1200x630
   },

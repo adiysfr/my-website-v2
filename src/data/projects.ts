@@ -1,0 +1,46 @@
+import type { Project } from '@/types'
+
+export const projects: Project[] = [
+  {
+    id: 'saas-dashboard',
+    title: 'SaaS Analytics Dashboard',
+    description: 'A real-time analytics platform with interactive charts, multi-tenant support, and role-based access control.',
+    thumbnail: '/projects/dashboard.jpg',
+    techStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind'],
+    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/adiyr/saas-dashboard',
+    featured: true,
+    category: 'fullstack',
+  },
+  {
+    id: 'dev-portfolio',
+    title: 'Developer Portfolio v1',
+    description: 'My previous portfolio built with React and Three.js featuring 3D interactions and canvas animations.',
+    thumbnail: '/projects/portfolio.jpg',
+    techStack: ['React', 'Three.js', 'GSAP', 'Tailwind'],
+    githubUrl: 'https://github.com/adiyr/portfolio-v1',
+    featured: true,
+    category: 'frontend',
+  },
+  {
+    id: 'api-gateway',
+    title: 'Microservices API Gateway',
+    description: 'A high-performance API gateway with rate limiting, JWT authentication, and request routing.',
+    thumbnail: '/projects/api.jpg',
+    techStack: ['Node.js', 'Express', 'Redis', 'Docker', 'PostgreSQL'],
+    githubUrl: 'https://github.com/adiyr/api-gateway',
+    featured: false,
+    category: 'backend',
+  },
+  {
+    id: 'collab-editor',
+    title: 'Collaborative Code Editor',
+    description: 'A real-time collaborative code editor supporting 20+ languages with syntax highlighting and live cursors.',
+    thumbnail: '/projects/editor.jpg',
+    techStack: ['Next.js', 'Socket.io', 'Monaco Editor', 'Node.js'],
+    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/adiyr/collab-editor',
+    featured: true,
+    category: 'fullstack',
+  },
+]
