@@ -7,11 +7,11 @@ import { CustomCursor } from '@/components/ui/CustomCursor'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Adi YR — Developer Portfolio',
+  title: 'Adi YR — Software Engineer',
   description:
     'Full-stack developer specializing in TypeScript, React, and Node.js. Building performant, beautiful digital experiences.',
   openGraph: {
-    title: 'Adi YR — Developer Portfolio',
+    title: 'Adi YR — Software Engineer',
     description: 'Full-stack developer crafting performant, beautiful digital experiences.',
     type: 'website',
   },
